@@ -1,4 +1,8 @@
-set WINP_ENV=c:\winpython32\scripts\env.bat
+set WINPYTHON=c:\winpython32
+set WINP_ENV=%WINPYTHON%\scripts\env.bat
+set winp_env
+
+chcp 1251
 
 @echo off
 rem ************************************
@@ -15,11 +19,9 @@ if exist "%WINP_ENV%"  goto no_Error_message
 
 :Error_message
 echo .
-echo ERROR :  WINP_ENV must point to the 'env.bat' script file of winpython
+echo Ошибка :  Укажите правильный путь к папке с WinPython в первой строке этого файла!
 echo .
-echo syntax example : set WINP_ENV=C:\toto\WinPython-32bit-3.3.2.3\Scripts\env.bat 
-echo .
-echo please correct the first line of this script and try again
+echo например : set WINPYTHON=C:\WinPython32 
 echo .
 pause
 exit
@@ -27,22 +29,13 @@ exit
 :no_Error_message
 call "%winp_env%"
  
-rem ** python2 or python3 case handling **
-set                               variable_launch=ipython  notebook --pylab=inline
-if "%WINPYVER%" GEQ "2.7.5.4" set variable_launch=ipython  notebook --matplotlib=inline
-if "%WINPYVER%" GEQ "3.3.0.0" set variable_launch=ipython3 notebook --pylab=inline
-if "%WINPYVER%" GEQ "3.3.2.2" set variable_launch=ipython3 notebook --matplotlib=inline
-
-
-echo Winpython version is : %WINPYVER%
+echo Версия WinPython: %WINPYVER%
 echo .
-echo Notebook directory is :
+echo Папка с блокнотами:
 echo     %~dp0
-echo to check all is ok you can launch this in a notebook :
+echo для проверки можно выполнить в блокноте команду:
 echo    print (get_ipython().profile_dir.location) "
 echo .
 
 @echo on
-%WINPYDIR%\Scripts\%variable_launch%  --notebook-dir=%~dp0  
-
-
+%WINPYTHON%\scripts\ipython_notebook --notebook-dir=%~dp0
