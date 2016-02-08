@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="303px" height="183px" viewBox="0 0 303 183" enable-background="new 0 0 303 183" xml:space="preserve">
+<path fill="#FCEE21" stroke="#F7931E" stroke-width="2" stroke-miterlimit="10" d="M302,154.392C302,169.794,289.741,182,275.42,182
+	H26.929C12.609,182,1,169.794,1,154.392V28.889C1,13.486,12.609,1,26.929,1H275.42C289.741,1,302,13.486,302,28.889V154.392z"/>
+<text transform="matrix(1 0 0 1 14.8428 26.0342)" font-family="'MyriadPro-Bold'" font-size="14">Область видимости модуля</text>
+<path fill="#8CC63F" stroke="#F7931E" stroke-width="2" stroke-miterlimit="10" d="M287,151.943c0,9.42-5.761,17.057-13.112,17.057
+	H146.313C138.96,169,133,161.364,133,151.943V75.191C133,65.771,138.96,58,146.313,58h127.575C281.239,58,287,65.771,287,75.191
+	V151.943z"/>
+<text transform="matrix(1 0 0 1 139.5391 76.8335)"><tspan x="0" y="0" font-family="'MyriadPro-Bold'" font-size="14">Область видимости </tspan><tspan x="0" y="16.8" font-family="'MyriadPro-Bold'" font-size="14">функции proba2(x)</tspan></text>
+<text transform="matrix(1 0 0 1 28.8867 50)" font-family="'MyriadPro-Regular'" font-size="14">x = 5</text>
+<text transform="matrix(1 0 0 1 144.3882 116.0415)" font-family="'MyriadPro-Regular'" font-size="14">x = 20 -&gt; x = 50</text>
+<text transform="matrix(1 0 0 1 144.0552 138.7417)" font-family="'MyriadPro-Regular'" font-size="14">z = 30</text>
+<text transform="matrix(1 0 0 1 144.3882 161.7417)" font-family="'MyriadPro-Regular'" font-size="14">y = 100</text>
+<text transform="matrix(1 0 0 1 28.8867 66.854)" font-family="'MyriadPro-Regular'" font-size="14">y = 10</text>
+<text transform="matrix(1 0 0 1 25.5161 86.5171)" font-family="'MyriadPro-Regular'" font-size="14">proba(20)</text>
+</svg>

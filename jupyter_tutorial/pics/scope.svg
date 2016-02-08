@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="303px" height="183px" viewBox="0 0 303 183" enable-background="new 0 0 303 183" xml:space="preserve">
+<path fill="#FCEE21" stroke="#F7931E" stroke-width="2" stroke-miterlimit="10" d="M302,154.392C302,169.794,289.741,182,275.42,182
+	H26.929C12.609,182,1,169.794,1,154.392V28.889C1,13.486,12.609,1,26.929,1H275.42C289.741,1,302,13.486,302,28.889V154.392z"/>
+<text transform="matrix(1 0 0 1 14.8428 26.0342)" font-family="'MyriadPro-Bold'" font-size="14">Область видимости модуля</text>
+<path fill="#8CC63F" stroke="#F7931E" stroke-width="2" stroke-miterlimit="10" d="M287,153.833c0,8.376-5.761,15.167-13.112,15.167
+	H146.313C138.96,169,133,162.209,133,153.833v-68.25C133,77.206,138.96,70,146.313,70h127.575C281.239,70,287,77.206,287,85.583
+	V153.833z"/>
+<text transform="matrix(1 0 0 1 139.5391 91.5)"><tspan x="0" y="0" font-family="'MyriadPro-Bold'" font-size="14">Область видимости </tspan><tspan x="0" y="16.8" font-family="'MyriadPro-Bold'" font-size="14">функции proba(x)</tspan></text>
+<text transform="matrix(1 0 0 1 28.8867 50)" font-family="'MyriadPro-Regular'" font-size="14">x = 5</text>
+<text transform="matrix(1 0 0 1 144.0552 133.708)" font-family="'MyriadPro-Regular'" font-size="14">x = 20</text>
+<text transform="matrix(1 0 0 1 144.0552 156.7417)" font-family="'MyriadPro-Regular'" font-size="14">z = 30</text>
+<text transform="matrix(1 0 0 1 28.8867 66.854)" font-family="'MyriadPro-Regular'" font-size="14">y = 10</text>
+<text transform="matrix(1 0 0 1 25.5161 86.5171)" font-family="'MyriadPro-Regular'" font-size="14">proba(20)</text>
+</svg>
