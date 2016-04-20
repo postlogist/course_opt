@@ -1,0 +1,7 @@
+reset;
+option solver gurobi;
+include './2reactors_milp.mod'
+
+solve;
+display x, y;
+display TotalCost;

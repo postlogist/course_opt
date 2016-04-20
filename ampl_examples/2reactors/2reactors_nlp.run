@@ -1,0 +1,8 @@
+reset;
+option solver minos;
+include './2reactors_nlp.mod'
+
+solve;
+display x;
+display TotalCost;
+

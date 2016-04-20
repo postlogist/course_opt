@@ -1,0 +1,7 @@
+reset;
+option solver gurobi;
+include './2reactors_lp.mod'
+
+solve;
+display x;
+display TotalCost;
