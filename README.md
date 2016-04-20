@@ -12,3 +12,7 @@
 ## Примеры решения задач с помощью Python/Jupyter Notebook
 
 [Оглавление](http://nbviewer.jupyter.org/github/postlogist/course_opt/blob/master/python_examples/_contents.ipynb)
+
+
+## Примеры решения задач с помощью AMPL/GLPK
+[Оглавление](ampl_examples)
